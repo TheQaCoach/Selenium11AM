@@ -3,7 +3,7 @@ package datatypes;
 public class Class1 {
 
 	public static void main(String[] args) {
-		
+	
 		boolean isAvailable = false;
 		char c = '\'';
 		byte by = 10;

@@ -28,12 +28,9 @@ public class Class2 {
 		calculation();
 	}
 	
-	
 	public static void calculation() {
 		isAvailable = true;
 		System.out.println(isAvailable);
 	}
 	
-	
-
 }

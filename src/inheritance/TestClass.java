@@ -10,16 +10,14 @@ public class TestClass {
 		pnb.displayBank();
 		pnb.cashDeposit();
 		
-		
 		PNBATM pnbbb = new PNBATM("PNBBBB");
 		pnbbb.cashDeposit();
-		
 		
 		OBCATM obc = new OBCATM("OBC");
 		obc.generatePIN();
 		obc.cashWithdrawl();
 		obc.generateReceipt();
 		obc.displayBank();
-			
+		
 	}	
 }

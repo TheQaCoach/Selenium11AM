@@ -19,6 +19,7 @@ public class BrowserActivity {
 		driver.manage().window().maximize();
 		
 		driver.get("http://www.google.com");
+		driver.navigate().to("http://www.google.com");
 		
 		WebElement searchElement = driver.findElementByName("q");
 		searchElement.sendKeys("theqacoach.co.in");

@@ -16,6 +16,7 @@ public class BrowserActivity {
 		
 		System.setProperty("webdriver.chrome.driver", "c:"+File.separator+"selenium"+File.separator+"chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
+		
 		driver.manage().window().maximize();
 		
 		driver.get("http://www.google.com");

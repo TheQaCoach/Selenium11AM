@@ -1,7 +1,6 @@
 package interfaces;
 
 public interface Bank {
-
-	void accountopen();
+	void accountopen(); 
 	
 }

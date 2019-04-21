@@ -22,7 +22,8 @@ public class linkedlist {
 	void show() {
 		node n = head;
 		while (n.next != null) {
-			System.out.print(n.data);
+			System.out.println(n.data);
+			n = n.next;
 		}
 		System.out.print(n.data);
 	}

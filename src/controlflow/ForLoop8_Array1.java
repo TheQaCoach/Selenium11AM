@@ -1,4 +1,4 @@
-package controlflow;import org.omg.Messaging.SyncScopeHelper;
+package controlflow;
 
 public class ForLoop8_Array1 {
 	public static void main(String arg[])

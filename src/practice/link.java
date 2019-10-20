@@ -1,7 +1,5 @@
 package practice;
 
-import java.io.*;
-
 public class link {
 	public static void main(String args[]) {
 		System.out.print("hello");
